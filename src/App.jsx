@@ -1,15 +1,12 @@
-// Write your Color component here
+import React from 'react';
+import Picker from './Picker'; // Make sure the path is correct
 
-const App = () => {
+function App() {
   return (
-    <div id="container">
-      <div id="navbar">
-        <div>Currently selected: </div>
-        <div className="red">red</div>
-      </div>
-      <div id="colors-list">{/* colors go here */}</div>
+    <div className="App">
+      <Picker />
     </div>
   );
-};
+}
 
 export default App;
